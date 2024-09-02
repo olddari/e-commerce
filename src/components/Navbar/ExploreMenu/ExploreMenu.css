@@ -1,0 +1,90 @@
+#explore-menu{
+    margin-top: 35vw;
+}
+
+.explore-menu-list{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    justify-content: space-between;
+    gap: 1.5vw;
+}
+
+.explore-menu-list-item{
+    width: 600px;
+    background: url('/public/images/shoe1-modified.png') no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+    max-width: 50%;
+    font-size: max(1vw, 20px);
+    align-items: center;
+    padding-top: 450px;
+}
+
+.explore-menu-list-item2{
+    width: 1200px;
+    background: url('/public/images/shoe2_-modified.png') no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5vw;
+    padding-top: 450px;
+    max-width: 50%;
+    font-size: max(1vw, 20px);
+}
+
+.explore-menu-list-item3{
+    width: 600px;
+    background: url('/public/images/shoe3-modified.png') no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5vw;
+    max-width: 50%;
+    font-size: max(1vw, 20px);
+    padding-top: 450px;
+}
+
+.explore-menu-list-item button{
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: black;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 39px;
+    margin-top: 12px;
+}
+
+.explore-menu-list-item2 button{
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: black;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.explore-menu-list-item3 button{
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: black;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+

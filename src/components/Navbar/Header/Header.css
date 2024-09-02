@@ -1,0 +1,126 @@
+.header{
+    height: 34vw;
+    margin: 50px auto;
+    background: url('/public/images/header4.png') no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 27%;
+    left: 1.7vw;
+    transition: 0.3s;
+    animation: fadeIn 1s;
+}
+
+.header-contents p{
+    color: black;
+    font-size: 1.5vw;
+}
+
+.header-contents button{
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: #EA2228;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.header-contents button:hover{
+    background-color: #e4575c;
+}
+
+.header1{
+    height: 34vw;
+    margin: 90px auto;
+    
+    background: url('/public/images/header1.jpg') no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 35vw;
+    border-radius: 15px;
+}
+
+.header-contents1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.5vw;
+    max-width: 50%;
+    bottom: 43%;
+    left: 42vw;
+    transition: 0.3s;
+    animation: fadeIn 1s;
+}
+
+.header-contents1 h1{
+    color: white;
+    font-size: 4vw;
+}
+
+.header-contents1 p{
+    color: white;
+    font-size: 2vw;
+}
+
+.header-contents1 button{
+    border: none;
+    color: #EA2228;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: white;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.header-contents1 button:hover{
+    background-color: rgb(219, 196, 196);
+    
+}
+
+@media (max-width:1050px){
+    .header{
+        height: 38vw;
+    }
+    .header-contents{
+        max-width: 45%;
+    }
+    .header1{
+        height: 38vw;
+    }
+    .header-contents1{
+        max-width: 45%;
+    }
+}
+
+@media (max-width:750px){
+    .header-contents{
+        max-width: 65%;
+    }
+    .header-contents1{
+        max-width: 65%;
+    }
+    .header-contents p{
+        display: none;
+    }
+    .header-contents1 p{
+        display: none;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+    .header-contents1 button{
+        display: 2vw 4vw;
+    }
+}
