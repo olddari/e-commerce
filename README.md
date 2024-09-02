@@ -1,4 +1,13 @@
 # Getting Started with Create React App
+##Welcome Page
+![Screenshot 2024-09-02 180040](https://github.com/user-attachments/assets/a5117a9c-9316-49e6-8501-20ec268e4027)
+![2](https://github.com/user-attachments/assets/297c06bd-12c8-4df0-9f00-2e14d6517968)
+##Shopping Page
+![3](https://github.com/user-attachments/assets/83c3410f-6481-4d40-be55-35746ceb43c6)
+##Login/Sign-Up Page,
+![4](https://github.com/user-attachments/assets/3fcba408-5682-43ab-aa12-e2339609aa1c)
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
